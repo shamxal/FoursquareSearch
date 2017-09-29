@@ -6,10 +6,10 @@ Foursquare Api Search
 - Show place detail (location, photo, users comments)
 
 
-![search_1](https://drive.google.com/open?id=0B9Qtmh4K29cVZFBKekpJMEhRUVk)
+![search_1](https://raw.githubusercontent.com/shamxal/FoursquareSearch/master/Simulator%20Screen%20Shot%2029%20Eyl%202017%2023.20.30.png)
 
-![search_1](https://drive.google.com/open?id=0B9Qtmh4K29cVMG5XTHdMaENlUTA)
+![search_2](https://raw.githubusercontent.com/shamxal/FoursquareSearch/9fbaebeb9883b5f1e7f04332b6c001fa95605ea8/Simulator%20Screen%20Shot%2029%20Eyl%202017%2023.20.43.png)
 
-![list](https://drive.google.com/open?id=0B9Qtmh4K29cVWUZZMVh6TTMxLTQ)
+![list](https://raw.githubusercontent.com/shamxal/FoursquareSearch/9fbaebeb9883b5f1e7f04332b6c001fa95605ea8/Simulator%20Screen%20Shot%2029%20Eyl%202017%2023.20.48.png)
 
-![detail](https://drive.google.com/open?id=0B9Qtmh4K29cVTUU0Y2FfMkU4UVk)
+![detail](https://raw.githubusercontent.com/shamxal/FoursquareSearch/9fbaebeb9883b5f1e7f04332b6c001fa95605ea8/Simulator%20Screen%20Shot%2029%20Eyl%202017%2023.21.04.png)
