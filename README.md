@@ -1,10 +1,18 @@
-# FoursquareSearch
+# Overview
 Foursquare Api Search
 
 - Search places such as bar, cafe
 - List search result
 - Show place detail (location, photo, users comments)
 
+## Features
+
+ - Foursqaure Api
+ - MapKit
+ - Autolayout
+ - AFNetworking
+ 
+ ## Screeshots
 
 ![search_1](https://raw.githubusercontent.com/shamxal/FoursquareSearch/master/Simulator%20Screen%20Shot%2029%20Eyl%202017%2023.20.30.png)
 
