@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		09A0DBFC24D1B7C9BBE28058 /* libPods-FoursquareSearch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10BFBF2C96408A7BC1AAEB65 /* libPods-FoursquareSearch.a */; };
+		1F5854571FB75EB100661745 /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5854561FB75EB100661745 /* Place.m */; };
+		1F58545A1FB75F7900661745 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5854591FB75F7900661745 /* Location.m */; };
 		1FC796D11F7EC5D500A19069 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC796D01F7EC5D500A19069 /* main.m */; };
 		1FC796D41F7EC5D500A19069 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC796D31F7EC5D500A19069 /* AppDelegate.m */; };
 		1FC796DA1F7EC5D500A19069 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC796D81F7EC5D500A19069 /* Main.storyboard */; };
@@ -26,6 +28,10 @@
 
 /* Begin PBXFileReference section */
 		10BFBF2C96408A7BC1AAEB65 /* libPods-FoursquareSearch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FoursquareSearch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F5854551FB75EB100661745 /* Place.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Place.h; sourceTree = "<group>"; };
+		1F5854561FB75EB100661745 /* Place.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Place.m; sourceTree = "<group>"; };
+		1F5854581FB75F7900661745 /* Location.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		1F5854591FB75F7900661745 /* Location.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
 		1FC796CC1F7EC5D500A19069 /* FoursquareSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoursquareSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC796D01F7EC5D500A19069 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1FC796D21F7EC5D500A19069 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +84,51 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		1F5854511FB75E3D00661745 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1FC796EA1F7EC64800A19069 /* PlacesCell.h */,
+				1FC796EB1F7EC64800A19069 /* PlacesCell.m */,
+				1FC796F11F7EC64800A19069 /* PopUpCell.h */,
+				1FC796F21F7EC64800A19069 /* PopUpCell.m */,
+				1FC796EF1F7EC64800A19069 /* AddressAnnotation.h */,
+				1FC796F01F7EC64800A19069 /* AddressAnnotation.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1F5854521FB75E4900661745 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1F5854551FB75EB100661745 /* Place.h */,
+				1F5854561FB75EB100661745 /* Place.m */,
+				1F5854581FB75F7900661745 /* Location.h */,
+				1F5854591FB75F7900661745 /* Location.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1F5854531FB75E5100661745 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1FC796E71F7EC64800A19069 /* MainVC.h */,
+				1FC796E81F7EC64800A19069 /* MainVC.m */,
+				1FC796EC1F7EC64800A19069 /* PlacesVC.h */,
+				1FC796ED1F7EC64800A19069 /* PlacesVC.m */,
+				1FC796F31F7EC64800A19069 /* PopUpVC.h */,
+				1FC796F41F7EC64800A19069 /* PopUpVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1F5854541FB75E9000661745 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				1FC796FB1F7EC68200A19069 /* API_Manager */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		1FC796C31F7EC5D500A19069 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +150,12 @@
 		1FC796CE1F7EC5D500A19069 /* FoursquareSearch */ = {
 			isa = PBXGroup;
 			children = (
+				1F5854541FB75E9000661745 /* Helper */,
 				1FC796D21F7EC5D500A19069 /* AppDelegate.h */,
 				1FC796D31F7EC5D500A19069 /* AppDelegate.m */,
-				1FC796FB1F7EC68200A19069 /* API_Manager */,
-				1FC796E71F7EC64800A19069 /* MainVC.h */,
-				1FC796E81F7EC64800A19069 /* MainVC.m */,
-				1FC796E91F7EC64800A19069 /* Places */,
-				1FC796EE1F7EC64800A19069 /* PopUp */,
+				1F5854521FB75E4900661745 /* Model */,
+				1F5854511FB75E3D00661745 /* View */,
+				1F5854531FB75E5100661745 /* Controller */,
 				1FC796D81F7EC5D500A19069 /* Main.storyboard */,
 				1FC796DB1F7EC5D500A19069 /* Assets.xcassets */,
 				1FC796DD1F7EC5D500A19069 /* LaunchScreen.storyboard */,
@@ -122,30 +172,6 @@
 				1FC797031F7EC87E00A19069 /* Header.h */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		1FC796E91F7EC64800A19069 /* Places */ = {
-			isa = PBXGroup;
-			children = (
-				1FC796EC1F7EC64800A19069 /* PlacesVC.h */,
-				1FC796ED1F7EC64800A19069 /* PlacesVC.m */,
-				1FC796EA1F7EC64800A19069 /* PlacesCell.h */,
-				1FC796EB1F7EC64800A19069 /* PlacesCell.m */,
-			);
-			path = Places;
-			sourceTree = "<group>";
-		};
-		1FC796EE1F7EC64800A19069 /* PopUp */ = {
-			isa = PBXGroup;
-			children = (
-				1FC796F31F7EC64800A19069 /* PopUpVC.h */,
-				1FC796F41F7EC64800A19069 /* PopUpVC.m */,
-				1FC796F11F7EC64800A19069 /* PopUpCell.h */,
-				1FC796F21F7EC64800A19069 /* PopUpCell.m */,
-				1FC796EF1F7EC64800A19069 /* AddressAnnotation.h */,
-				1FC796F01F7EC64800A19069 /* AddressAnnotation.m */,
-			);
-			path = PopUp;
 			sourceTree = "<group>";
 		};
 		1FC796FB1F7EC68200A19069 /* API_Manager */ = {
@@ -296,10 +322,12 @@
 				1FC796F91F7EC64800A19069 /* PopUpCell.m in Sources */,
 				1FC797001F7EC68200A19069 /* API_Connection.m in Sources */,
 				1FC796FA1F7EC64800A19069 /* PopUpVC.m in Sources */,
+				1F5854571FB75EB100661745 /* Place.m in Sources */,
 				1FC796F51F7EC64800A19069 /* MainVC.m in Sources */,
 				1FC796D41F7EC5D500A19069 /* AppDelegate.m in Sources */,
 				1FC796F71F7EC64800A19069 /* PlacesVC.m in Sources */,
 				1FC797011F7EC68200A19069 /* API_Manager.m in Sources */,
+				1F58545A1FB75F7900661745 /* Location.m in Sources */,
 				1FC796D11F7EC5D500A19069 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
