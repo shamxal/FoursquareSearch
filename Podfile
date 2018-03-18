@@ -10,5 +10,6 @@ target 'FoursquareSearch' do
   pod 'SDWebImage'
   pod 'MMProgressHUD'
   pod 'AFNetworking'
+  pod 'DCKeyValueObjectMapping', '~> 1.5'
 
 end

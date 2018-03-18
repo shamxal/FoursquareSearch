@@ -30,6 +30,7 @@ PODS:
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
   - CCMPopup (1.1.0)
+  - DCKeyValueObjectMapping (1.5)
   - MMProgressHUD (0.3.2)
   - SDWebImage (4.0.0):
     - SDWebImage/Core (= 4.0.0)
@@ -39,6 +40,7 @@ DEPENDENCIES:
   - AFNetworking
   - BlocksKit
   - CCMPopup
+  - DCKeyValueObjectMapping (~> 1.5)
   - MMProgressHUD
   - SDWebImage
 
@@ -46,9 +48,10 @@ SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
   CCMPopup: e41fad5b8a0823c9cddea8eab6d431670c9dabe5
+  DCKeyValueObjectMapping: c2eb5a6529da100b2e49ef6a599663578051f077
   MMProgressHUD: a913b116ba6791d67d37f9fb4211079200fb7595
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
 
-PODFILE CHECKSUM: 9422a10553f68cdf33eeb8d4ae22ea7890fcab94
+PODFILE CHECKSUM: 9a6b37731547fd92344c7b26a4621b561972d99a
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.4.0.beta.1

@@ -19,6 +19,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>DCKeyValueObjectMapping.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MMProgressHUD.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -36,37 +41,6 @@
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>0AC55E754182E1FCF070AC7F74379523</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>135D23180F759A69D386E8B0F1823FC7</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>5EEBA5C10DDB47672D7A0976539705E5</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>9E033EDB5EC0819481B0546434FA577B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>AD50D437A73A490E4582E60C62181591</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>EC5D8BF3B6A4D5696001EEB44EF0096A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>
